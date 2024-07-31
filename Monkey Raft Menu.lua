@@ -49,7 +49,7 @@ section2:AddButton({
 section2:AddButton({
     Name = "Collect Golden Bananas",
     Callback = function()
-        loadstring(game:loadstring(game:Https://raw.githubusercontent.com/Kvex422/RGBHPG/main/Auto%20Collect%20Golden%20Bananas.txt))
+        loadstring(loadstring(HttpGet("https://raw.githubusercontent.com/Kvex422/RGBHPG/main/Auto%20Collect%20Golden%20Bananas.txt"))()
     end
 })
 
