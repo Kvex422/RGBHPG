@@ -1,0 +1,6 @@
+local bananas = workspace.Lobby.Lobby.DailyBananas
+for _, banana in ipairs(bananas:GetDescendants()) do
+    if banana:IsA("RemoteEvent") and banana.Name == "CollectEvent" then
+        banana:FireServer()
+    end
+end
