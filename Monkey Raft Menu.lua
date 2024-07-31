@@ -42,14 +42,14 @@ section1:AddButton({
 section2:AddButton({
     Name = "Spawn Fish",
     Callback = function()
-        loadstring(game:loadstring(game:HttpGet("https://raw.githubusercontent.com/SederYTTV/MonkeyRaft/main/Script"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SederYTTV/MonkeyRaft/main/Script"))()
     end
 })
 
 section2:AddButton({
     Name = "Collect Golden Bananas",
     Callback = function()
-        loadstring(loadstring(HttpGet("https://raw.githubusercontent.com/Kvex422/RGBHPG/main/Auto%20Collect%20Golden%20Bananas.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kvex422/RGBHPG/main/Auto%20Collect%20Golden%20Bananas.txt"))()
     end
 })
 
